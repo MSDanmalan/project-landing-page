@@ -14,7 +14,7 @@ ul {
 a{
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: #e5e7eb;
 }
 
 .header {
@@ -36,6 +36,7 @@ a{
 .header .header-top div {
     font-size: 24px;
     font-weight: 700;
+    color: #f9faf8;
 }
 
 .header-down {
@@ -52,10 +53,12 @@ a{
 .info h1 {
     font-weight: 900;
     font-size: 48px;
+    color: #f9faf8;
 }
 
 .info div {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .info button {
@@ -73,6 +76,7 @@ h2 {
     padding: 20px;
     font-weight: bolder;
     font-size: 36px;
+    color: #1f2937;
 }
 .image {
     border: 6px solid #3882f6;
@@ -107,5 +111,32 @@ h2 {
 
 .text {
     font-size: 24px;
+}
+
+/* section3 */
+
+.section3 {
+    height: 450px;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center; 
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    flex-wrap: wrap;
+}
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.citer {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 900;
 }
 
