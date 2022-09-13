@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: roboto, sans-serif;
+    height: 100vh;
 }
 ul {
     list-style-type: none;
@@ -25,8 +26,10 @@ a{
     color: white;
     background-color: #1f2937;
     height: 350px;
+    align-items: center;
 }
 .header-top {
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 80px;
@@ -40,8 +43,9 @@ a{
 }
 
 .header-down {
+    width: 1000px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .info{
     display: flex 0 1 0;
@@ -94,7 +98,6 @@ h2 {
     align-items: center;
     height: 450px;
     padding-bottom: 100px;
-    border-bottom: 3px solid black;
 }
 
 .random-info {
@@ -122,7 +125,6 @@ h2 {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center; 
-    border-bottom: 3px solid black;
 }
 .quote {
     display: flex;
@@ -181,4 +183,14 @@ h2 {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
 }
